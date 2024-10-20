@@ -15,9 +15,10 @@ Tailwind CSS is used for styling, and Next Themes is used for dark mode. React I
 2. Install dependencies `npm install`
 3. Run the development server `npm run dev`
 
-## Features
+### Features
 
 - Next.js 14 with app router
+- Prebuilt components for a quick start
 - Tailwind CSS
-- Next Themes
+- Next Themes for dark mode
 - React Icons
