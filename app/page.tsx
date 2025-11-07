@@ -11,7 +11,7 @@ import Download from "components/Download";
 
 export default function Page() {
   return (
-    <div className="flex flex-col min-h-screen bg-white dark:bg-black">
+    <div className="flex flex-col min-h-screen bg-white">
       <Header />
       <main>
         <Hero />
@@ -19,7 +19,7 @@ export default function Page() {
         <Section
           leftHalf={
             <>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4">
                 Effortlessly highlight the key features of your app
               </h2>
               <p className="text-xl font-light">
@@ -37,7 +37,7 @@ export default function Page() {
           leftHalf={<Accordion />}
           rightHalf={
             <div className="flex flex-col justify-end">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4">
                 Highlight the key features
               </h2>
               <p className="text-xl font-light">
