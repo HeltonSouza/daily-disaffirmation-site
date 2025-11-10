@@ -1,4 +1,4 @@
-import { AiOutlineFacebook, AiOutlineTikTok, AiOutlineLinkedin, AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineFacebook, AiOutlineTikTok, AiOutlineInstagram } from "react-icons/ai";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

@@ -1,7 +1,5 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
 import { SlMagicWand, SlCamera, SlGhost, SlTarget, SlBriefcase, SlPresent } from "react-icons/sl";
 
 const Features = () => {
