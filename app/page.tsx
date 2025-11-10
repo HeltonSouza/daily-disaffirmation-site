@@ -20,11 +20,15 @@ export default function Page() {
           leftHalf={
             <>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4">
-                Effortlessly highlight the key features of your app
+                Why negativity… works?
               </h2>
               <p className="text-xl font-light">
-                Our app makes it easy to showcase your key features. With customizable sections, you can highlight the
-                most important aspects of your product. More to come.
+                Toxic positivity had its run.
+              </p>
+              <p className="text-xl font-light">
+                The Daily Disaffirmation App flips the script with a single deadpan 
+                quote each morning just enough sarcasm to make you smirk and just enough truth to make you move.
+                With taste.
               </p>
             </>
           }
@@ -33,7 +37,7 @@ export default function Page() {
           }
         />
         <Customers />
-        <Section
+        {/* <Section
           leftHalf={<Accordion />}
           rightHalf={
             <div className="flex flex-col justify-end">
@@ -46,7 +50,7 @@ export default function Page() {
               </p>
             </div>
           }
-        />
+        /> */}
         <Reviews />
         <Download />
       </main>

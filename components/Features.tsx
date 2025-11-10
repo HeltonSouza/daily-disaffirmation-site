@@ -2,38 +2,39 @@ import React from "react";
 import FeatureCard from "./FeatureCard";
 import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
+import { SlMagicWand, SlCamera, SlGhost, SlTarget, SlBriefcase, SlPresent } from "react-icons/sl";
 
 const Features = () => {
   const features = [
     {
-      icon: SiNextdotjs,
-      title: "Next.js 14",
-      description: "App dir, Routing, Layouts, components, and more.",
+      icon: SlMagicWand,
+      title: "Comforting?",
+      description: "One brutally dry, oddly comforting quote each day.",
     },
     {
-      icon: FaReact,
-      title: "React 18",
-      description: "Server and Client Components. using hooks and context.",
+      icon: SlCamera,
+      title: "Stunning",
+      description: "Beautiful backgrounds so the sting goes down smooth.",
     },
     {
-      icon: FaDatabase,
-      title: "Database",
-      description: "Postgres basic database and other cool features to come.",
+      icon: SlGhost,
+      title: "Enough",
+      description: "Tired of toxic positivity? We are here for ALL of it!",
     },
     {
-      icon: SiTailwindcss,
-      title: "Components",
-      description: "Awesome components built with Tailwind CSS and more to come.",
+      icon: SlTarget,
+      title: "Handy",
+      description: "The anti-affirmation app you'll actually use.",
     },
     {
-      icon: FaShieldAlt,
-      title: "Authentication",
-      description: "Talk about your authentication features built into your app.",
+      icon: SlBriefcase,
+      title: "Trusted",
+      description: "Get your daily dose of dry humor from professional pranksters.",
     },
     {
-      icon: SiStripe,
-      title: "Subscriptions",
-      description: "Talk about your subscription features and how they work.",
+      icon: SlPresent,
+      title: "Share",
+      description: "Yes, you can gift this amazing fountain of knowledge to your \"best\" people!",
     },
   ];
 
@@ -41,10 +42,9 @@ const Features = () => {
     <section className="container mx-auto px-4 py-12 bg-gray-50 transition-colors duration-200 rounded-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4">Features</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4">You better believe</h2>
           <p className="mt-8 text-xl text-gray-600 font-light">
-            Highlight cool features of your app using the beautifully designed custom cards with icons. You can use any
-            icon you want.
+            Finally, a dis-affirmation app that tells it like it isn't.
           </p>
         </div>
         <div className="mt-10">
