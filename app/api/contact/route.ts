@@ -35,8 +35,8 @@ export async function POST(request: Request) {
     }
 
     // Send email using Resend
-    const data = await resend.emails.send({
-      from: "Daily Disaffirmation <noreply@dailydisaffirmation.com>", // You'll need to update this with your verified domain
+    const { data, error } = await resend.emails.send({
+      from: "Daily Disaffirmation <noreply@dailydisaffirmation.com>",
       to: ["contact@dailydisaffirmation.com"],
       subject: "Contact us",
       html: `
@@ -49,8 +49,16 @@ export async function POST(request: Request) {
       replyTo: email,
     });
 
+    if (error) {
+      console.error("Resend API error:", error);
+      return NextResponse.json(
+        { error: "Failed to send email. Please try again later." },
+        { status: 500 }
+      );
+    }
+
     return NextResponse.json(
-      { message: "Email sent successfully", id: data.id },
+      { message: "Email sent successfully", id: data?.id },
       { status: 200 }
     );
   } catch (error) {
