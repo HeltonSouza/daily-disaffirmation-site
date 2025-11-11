@@ -5,7 +5,10 @@ export default function Header() {
     <header className="bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <span className="text-xl">Daily Disaffirmation App</span>
+          {/* <span className="text-xl">Daily Disaffirmation App</span> */}
+          <Link href="/" className="text-xl">
+            Daily Disaffirmation App
+          </Link>
         </div>
         <nav className="flex items-center">
           <ul className="flex space-x-2 mr-2">
