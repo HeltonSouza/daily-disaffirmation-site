@@ -49,7 +49,7 @@ const defaultReviews: ReviewData[] = [
 
 const Reviews: React.FC<ReviewsProps> = ({ reviews = defaultReviews }) => {
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-24 bg-[rgba(255,225,195,1)]">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-8 text-gray-900">
           Don't take our word for it, really!

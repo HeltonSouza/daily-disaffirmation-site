@@ -37,7 +37,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="container mx-auto px-4 py-12 bg-gray-50 transition-colors duration-200 rounded-lg">
+    <section className="container mx-auto px-4 py-12 bg-[rgba(255,225,195,1)] transition-colors duration-200 rounded-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4">You better believe</h2>

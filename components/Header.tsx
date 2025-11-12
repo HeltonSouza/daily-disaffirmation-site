@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-sm">
+    <header className="bg-[rgba(255,247,220,1)] shadow-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           {/* <span className="text-xl">Daily Disaffirmation App</span> */}

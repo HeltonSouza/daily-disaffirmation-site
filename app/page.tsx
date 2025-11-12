@@ -10,7 +10,7 @@ import Download from "components/Download";
 
 export default function Page() {
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div className="flex flex-col min-h-screen bg-[rgba(255,247,220,1)]">
       <Header />
       <main>
         <Hero />

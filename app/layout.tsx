@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      <body className="bg-white min-h-screen">
+      <body className="bg-[rgba(255,247,220,1)] min-h-screen">
         {children}
       </body>
     </html>
