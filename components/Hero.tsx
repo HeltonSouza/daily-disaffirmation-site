@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -11,11 +12,20 @@ export default function Hero() {
       </p>
       <div className="flex justify-center space-x-6">
         <Link
-          href="#download"
-          className="bg-black text-white px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 transition duration-300"
+          href="#"
+          className="download-button bg-black text-white px-5 py-2 rounded-md text-base flex items-center space-x-2 transition-colors duration-200"
         >
-          Download
+          <FaApple className="text-2xl" />
+          <span>App Store</span>
         </Link>
+        <Link
+          href="#"
+          className="download-button bg-black text-white px-5 py-2 rounded-md text-base flex items-center space-x-2 transition-colors duration-200"
+        >
+          <FaGooglePlay className="text-2xl" />
+          <span>Google Play</span>
+        </Link>
+
       </div>
     </section>
   );
